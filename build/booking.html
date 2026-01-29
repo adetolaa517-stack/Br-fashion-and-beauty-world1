@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking | BR Fashion & Beauty</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-pink-50 via-white to-purple-50 text-gray-800">
+
+<nav class="bg-white shadow-md sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-pink-600">
+      BR Fashion & Beauty
+    </h1>
+
+    <ul class="flex space-x-6 text-sm font-medium">
+      <li><a href="home.html" class="hover:text-pink-500 transition">Home</a></li>
+      <li><a href="services.html" class="hover:text-pink-500 transition">Services</a></li>
+      <li><a href="products.html" class="hover:text-pink-500 transition">Products</a></li>
+      <li><a href="booking.html" class="hover:text-pink-500 transition">Booking</a></li>
+      <li><a href="gallery.html" class="hover:text-pink-500 transition">Gallery</a></li>
+      <li><a href="payment.html"
+ class="bg-pink-500 text-white px-4 py-2 rounded-full hover:bg-pink-600 transition">
+ Payment
+</a>
+</li>
+    </ul>
+  </div>
+</nav>
+
+<div class="min-h-screen flex items-center justify-center">
+  <form class="bg-white p-8 rounded-2xl shadow-lg w-96">
+    <h2 class="text-2xl font-bold mb-6 text-center">Book Appointment</h2>
+
+    <input type="text" placeholder="Full Name"
+      class="w-full mb-4 px-4 py-2 border rounded-lg">
+
+    <select class="w-full mb-4 px-4 py-2 border rounded-lg">
+      <option>Select Service</option>
+      <option>Hair</option>
+      <option>Makeup</option>
+      <option>Fashion</option>
+    </select>
+
+    <select class="w-full mb-4 px-4 py-2 border rounded-lg">
+  <option>Select Time</option>
+  <option>10:00 AM</option>
+  <option>12:00 PM</option>
+  <option>3:00 PM</option>
+</select>
+
+<textarea
+  placeholder="Special requests"
+  class="w-full mb-6 px-4 py-2 border rounded-lg"></textarea>
+
+
+    <input type="date" class="w-full mb-6 px-4 py-2 border rounded-lg">
+
+    <button class="w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">
+      Confirm Booking
+    </button>
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | BR Fashion & Beauty</title>
+
+ 
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center
+             bg-[url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9')]
+             bg-cover bg-center">
+
+
+  <div class="absolute inset-0 bg-black/60"></div>
+
+
+  <div class="relative bg-white/90 backdrop-blur-lg p-10 rounded-3xl shadow-2xl w-96">
+
+    <h1 class="text-3xl font-extrabold text-center text-pink-600 mb-2">
+      BR Fashion & Beauty
+    </h1>
+    <p class="text-center text-gray-600 mb-8">
+      Login to continue ✨
+    </p>
+
+    
+    <form action="home.html" method="get">
+      <input
+        type="text"
+        placeholder="Username"
+        required
+        class="w-full mb-4 px-4 py-3 rounded-xl border focus:outline-none focus:ring-2 focus:ring-pink-400"
+      />
+
+      <input
+        type="password"
+        placeholder="Password"
+        required
+        class="w-full mb-6 px-4 py-3 rounded-xl border focus:outline-none focus:ring-2 focus:ring-pink-400"
+      />
+
+      <button
+        type="submit"
+        class="w-full bg-pink-500 text-white py-3 rounded-xl font-semibold hover:bg-pink-600 transition">
+        Login
+      </button>
+    </form>
+
+    <p class="text-xs text-center text-gray-500 mt-6">
+      🔒 Secure access only
+    </p>
+
+  </div>
+
+</body>
+</html>
