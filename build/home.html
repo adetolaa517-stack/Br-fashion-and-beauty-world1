@@ -1,159 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="bg-gradient-to-br from-pink-50 via-white to-purple-50 text-gray-800">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BR Fashion & Beauty</title>
 
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body class="bg-gradient-to-br from-pink-50 via-white to-purple-50 text-gray-800">
 <nav class="bg-white shadow-md sticky top-0 z-50">
-  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-    <h1 class="text-2xl font-bold text-pink-600">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
+    
+ 
+    <h1 class="text-xl sm:text-2xl font-bold text-pink-600 z-10">
       BR Fashion & Beauty
     </h1>
 
-    <ul class="flex space-x-6 text-sm font-medium">
-      <li><a href="home.html" class="hover:text-pink-500 transition">Home</a></li>
-      <li><a href="services.html" class="hover:text-pink-500 transition">Services</a></li>
-      <li><a href="products.html" class="hover:text-pink-500 transition">Products</a></li>
-      <li><a href="booking.html" class="hover:text-pink-500 transition">Booking</a></li>
-      <li><a href="gallery.html" class="hover:text-pink-500 transition">Gallery</a></li>
-      <li><a href="payment.html"
- class="bg-pink-500 text-white px-4 py-2 rounded-full hover:bg-pink-600 transition">
- Payment
-</a>
-</li>
+    
+    <div class="md:hidden z-10">
+
+      <input type="checkbox" id="mobile-menu" class="hidden peer" />
+      
+      
+      <label for="mobile-menu" class="cursor-pointer group">
+        <div class="relative w-8 h-8 flex items-center justify-center">
+      
+          <span class="absolute block w-6 h-0.5 bg-pink-600 rounded-full transition-all duration-300 ease-in-out group-peer-checked:rotate-45 group-peer-checked:translate-y-0 group-peer-checked:w-6 origin-center"></span>
+          <span class="absolute block w-6 h-0.5 bg-pink-600 rounded-full transition-all duration-300 ease-in-out group-peer-checked:opacity-0"></span>
+          <span class="absolute block w-6 h-0.5 bg-pink-600 rounded-full transition-all duration-300 ease-in-out group-peer-checked:-rotate-45 group-peer-checked:translate-y-0 group-peer-checked:w-6 origin-center"></span>
+        </div>
+      </label>
+    </div>
+
+   
+    <ul class="hidden md:flex space-x-6 lg:space-x-8 text-sm font-medium items-center">
+      <li><a href="#" class="hover:text-pink-500 transition">Home</a></li>
+      <li><a href="#services" class="hover:text-pink-500 transition">Services</a></li>
+      <li><a href="#products" class="hover:text-pink-500 transition">Products</a></li>
+      <li><a href="payment.html" class="bg-pink-100 text-pink-600 px-4 py-2 rounded-full hover:bg-pink-200 transition">Payment</a></li>
+      <li><a href="#" class="bg-pink-500 text-white px-5 py-2.5 rounded-full hover:bg-pink-600 transition">Sign Up</a></li>
+    </ul>
+  </div>
+
+
+  <div class="md:hidden overflow-hidden max-h-0 peer-checked:max-h-[500px] transition-all duration-500 ease-in-out bg-white border-t border-gray-100">
+    <ul class="flex flex-col items-center space-y-5 py-8 text-base font-medium">
+      <li><a href="#" class="hover:text-pink-500 transition">Home</a></li>
+      <li><a href="#services" class="hover:text-pink-500 transition">Services</a></li>
+      <li><a href="#products" class="hover:text-pink-500 transition">Products</a></li>
+      <li><a href="payment.html" class="bg-pink-100 text-pink-600 px-6 py-3 rounded-full hover:bg-pink-200 transition">Payment</a></li>
+      <li><a href="#" class="bg-pink-500 text-white px-8 py-3 rounded-full hover:bg-pink-600 transition">Sign Up</a></li>
     </ul>
   </div>
 </nav>
-<section class="text-center py-24 px-6">
-  <h2 class="text-4xl md:text-5xl font-extrabold mb-4">
-    Glow Different ✨
-  </h2>
+
+<section class="text-center py-16 md:py-24 px-6">
+  <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Glow Different ✨</h2>
   <p class="max-w-xl mx-auto text-gray-600 mb-8">
     Premium fashion, beauty, and self-care services made just for you.
   </p>
-
-  <a href="booking.html"
-     class="inline-block bg-pink-500 text-white px-8 py-3 rounded-full hover:scale-105 transition transform">
-     Book Now
-  </a>
+  <a href="#booking" class="inline-block bg-pink-500 text-white px-8 py-3 rounded-full hover:scale-105 transition">Book Now</a>
 </section>
-<section class="py-20 bg-gray-50">
+
+<section class="py-20 bg-gray-50 overflow-hidden">
   <div class="max-w-6xl mx-auto px-6 text-center">
     <h2 class="text-3xl font-bold mb-4">Our Work</h2>
-    <p class="text-gray-600 mb-8">
-      Real results. Real glow.
-    </p>
-
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <div class="bg-gray-300 h-40 rounded-xl"></div>
-      <div class="bg-gray-300 h-40 rounded-xl"></div>
-      <div class="bg-gray-300 h-40 rounded-xl"></div>
-      <div class="bg-gray-300 h-40 rounded-xl"></div>
-    </div>
-
-    <a href="gallery.html"
-      class="inline-block mt-10 text-pink-500 font-semibold hover:underline">
-      View Full Gallery →
-    </a>
-  </div>
-</section>
-<section class="py-20">
-  <h2 class="text-3xl font-bold text-center mb-12">Why Choose Us?</h2>
-
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
-    <div class="bg-white p-6 rounded-2xl shadow text-center">
-      <p class="text-4xl mb-4">✨</p>
-      <h3 class="font-semibold mb-2">Premium Quality</h3>
-      <p class="text-sm text-gray-600">Only the best products & techniques.</p>
-    </div>
-
-    <div class="bg-white p-6 rounded-2xl shadow text-center">
-      <p class="text-4xl mb-4">💖</p>
-      <h3 class="font-semibold mb-2">Client Focused</h3>
-      <p class="text-sm text-gray-600">Your satisfaction comes first.</p>
-    </div>
-
-    <div class="bg-white p-6 rounded-2xl shadow text-center">
-      <p class="text-4xl mb-4">🔥</p>
-      <h3 class="font-semibold mb-2">Trending Styles</h3>
-      <p class="text-sm text-gray-600">Always on what’s hot.</p>
+    <div class="relative mx-auto h-64 flex items-center justify-center">
+      <div class="absolute w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white shadow-lg animate-[swap_12s_ease-in-out_infinite]">
+        <img src="images/Screenshot_20260112_063834_WhatsApp.jpg" class="w-full h-full object-cover">
+      </div>
+      <div class="absolute w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white shadow-lg animate-[swap_12s_ease-in-out_infinite] [animation-delay:4s]">
+        <img src="images/20260103_125120.jpg" class="w-full h-full object-cover">
+      </div>
+      <div class="absolute w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white shadow-lg animate-[swap_12s_ease-in-out_infinite] [animation-delay:8s]">
+        <img src="images/20260104_153550.jpg" class="w-full h-full object-cover">
+      </div>
     </div>
   </div>
 </section>
 
-
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 max-w-7xl mx-auto">
-  
-  <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-    <h3 class="text-lg font-semibold mb-2">Hair Styling</h3>
-    <p class="text-sm text-gray-600">Clean styles, protective care.</p>
+<section id="services" class="py-20 px-6 max-w-7xl mx-auto">
+  <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    <div class="bg-gradient-to-br from-pink-400 to-pink-600 text-white p-8 rounded-3xl shadow-lg hover:scale-105 transition">
+      <h3 class="font-bold text-xl mb-2">Hair Styling</h3>
+      <p class="opacity-90">Braids, installs, silk press.</p>
+    </div>
+    <div class="bg-gradient-to-br from-purple-400 to-purple-600 text-white p-8 rounded-3xl shadow-lg hover:scale-105 transition">
+      <h3 class="font-bold text-xl mb-2">Makeup</h3>
+      <p class="opacity-90">Soft glam, full glam.</p>
+    </div>
+    <div class="bg-gradient-to-br from-rose-400 to-red-500 text-white p-8 rounded-3xl shadow-lg hover:scale-105 transition">
+      <h3 class="font-bold text-xl mb-2">Fashion Styling</h3>
+      <p class="opacity-90">Outfits that actually eat.</p>
+    </div>
   </div>
+</section>
 
-  <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-    <h3 class="text-lg font-semibold mb-2">Makeup</h3>
-    <p class="text-sm text-gray-600">Soft glam or full beat.</p>
+<section id="products" class="py-20 bg-white">
+  <h2 class="text-4xl font-bold text-center mb-12">Products</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+    <div class="bg-gray-50 p-6 rounded-2xl shadow hover:scale-105 transition">
+      <div class="h-48 bg-pink-100 rounded-xl mb-4"></div>
+      <h3 class="font-semibold text-lg">Hair Growth Oil</h3>
+      <p class="text-gray-600 mb-4">$15.00</p>
+      <a href="payment.html" class="w-full block text-center bg-pink-500 text-white py-2 rounded-full hover:bg-pink-600">Buy Now</a>
+    </div>
+    <div class="bg-gray-50 p-6 rounded-2xl shadow hover:scale-105 transition">
+      <div class="h-48 bg-purple-100 rounded-xl mb-4"></div>
+      <h3 class="font-semibold text-lg">Lash Serum</h3>
+      <p class="text-gray-600 mb-4">$20.00</p>
+      <a href="payment.html" class="w-full block text-center bg-pink-500 text-white py-2 rounded-full hover:bg-pink-600">Buy Now</a>
+    </div>
+    <div class="bg-gray-50 p-6 rounded-2xl shadow hover:scale-105 transition">
+      <div class="h-48 bg-rose-100 rounded-xl mb-4"></div>
+      <h3 class="font-semibold text-lg">Edge Control</h3>
+      <p class="text-gray-600 mb-4">$12.00</p>
+      <a href="payment.html" class="w-full block text-center bg-pink-500 text-white py-2 rounded-full hover:bg-pink-600">Buy Now</a>
+    </div>
   </div>
+</section>
 
-  <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6 text-center">
-    <h3 class="text-lg font-semibold mb-2">Fashion Styling</h3>
-    <p class="text-sm text-gray-600">Outfits that actually eat.</p>
-  </div>
-
-</div>
-
-<div class="min-h-screen flex items-center justify-center">
-  <form class="bg-white p-8 rounded-2xl shadow-lg w-96">
-    <h2 class="text-2xl font-bold text-center mb-6">Welcome Back ✨</h2>
-
-    <input type="text" placeholder="Username"
-      class="w-full mb-4 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400">
-
-    <input type="password" placeholder="Password"
-      class="w-full mb-6 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400">
-
-    <button class="w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">
-      Login
-    </button>
-  </form>
-  <section
-  class="relative py-24 bg-[url('https://images.unsplash.com/photo-1559599101-f09722fb4948')]
-         bg-cover bg-center">
-
-  
-  <div class="absolute inset-0 bg-black/50"></div>
-
-  
-  <div class="relative max-w-md mx-auto bg-white/90 backdrop-blur-lg p-8 rounded-3xl shadow-2xl">
-    <h2 class="text-3xl font-bold text-center mb-6 text-pink-600">
-      Book Appointment
-    </h2>
-
+<section id="booking" class="relative py-24 bg-[url('https://images.unsplash.com/photo-1559599101-f09722fb4948')] bg-cover bg-center">
+  <div class="absolute inset-0 bg-black/60"></div>
+  <div class="relative max-w-md mx-auto bg-white/95 backdrop-blur-md p-8 rounded-3xl shadow-2xl mx-6 md:mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-6 text-pink-600">Book Appointment</h2>
     <form>
-      <input class="w-full mb-4 px-4 py-2 border rounded-lg" placeholder="Full Name" />
-      <select class="w-full mb-4 px-4 py-2 border rounded-lg">
+      <label class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+      <input class="w-full mb-4 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-pink-500 outline-none" placeholder="Enter your name" />
+      
+      <label class="block text-sm font-medium text-gray-700 mb-1">Service</label>
+      <select class="w-full mb-4 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-pink-500 outline-none">
         <option>Select Service</option>
-        <option>Hair</option>
-        <option>Makeup</option>
-        <option>Fashion</option>
+        <option>Hair Styling</option>
+        <option>Makeup Glam</option>
+        <option>Fashion Consultation</option>
       </select>
-      <input type="date" class="w-full mb-6 px-4 py-2 border rounded-lg" />
+      
+      <label class="block text-sm font-medium text-gray-700 mb-1">Date</label>
+      <input type="date" class="w-full mb-6 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-pink-500 outline-none" />
 
-      <button class="w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">
+      <button type="submit" class="w-full bg-pink-500 text-white py-3 rounded-xl font-bold hover:bg-pink-600 transition shadow-lg">
         Confirm Booking
       </button>
     </form>
   </div>
-
 </section>
 
+<footer class="py-10 text-center text-gray-500 text-sm">
+  &copy; 2026 BR Fashion & Beauty. All rights reserved.
+</footer>
 
-</div>
-
-
-    
 </body>
 </html>
